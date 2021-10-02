@@ -1,0 +1,46 @@
+name: gwpe
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - corner
+  - h5py
+  - jupyterlab
+  - ipython
+  - lalsuite
+  - pycbc
+  - pip
+  # For testing and benchmarking
+  - pytest
+  - pytest-cov
+  - codecov
+  # For type annotations
+  - mypy
+  - typing_extensions
+  - pylint
+  # PyTorch
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pandas
+  - tqdm
+  - ligo.skymap
+  - bilby
+  - astropy
+  - gwpy
+  - pip:
+    - chainconsumer
+    - nflows
+    - pyro-ppl
+    - torchdiffeq
+    - jupyterlab-unfold
+    - -e .  # install package in development mode
+    - umnn
+    - einops
+    - simple-parsing
+    - labml
+    - labml-app
