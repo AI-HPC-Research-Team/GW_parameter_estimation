@@ -6,6 +6,8 @@ models/*/*.hdf5
 models/*/.*
 # GWToolkit/
 output/models/test*
+waveforms/
+data/*_randpsds/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
